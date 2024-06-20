@@ -100,7 +100,7 @@ history = model.fit(training_padded, training_labels,
                     verbose=2) 
 
 # sample text to check if fake or not 
-X = "• Trump is now vowing to win enough delegates to clinch the Republican nomination and prevent a contested convention. But Sens.Ted Cruz, R-Texas, Bernie Sanders, D-Vt., and Ohio Gov. John Kasich and aren't giving up just yet"
+X = " //sample news here//"
 
 # detection 
 sequences = tokenizer1.texts_to_sequences([X]) 
